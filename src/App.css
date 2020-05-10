@@ -1,0 +1,27 @@
+:root {
+  --mainBlue:#2a2a72; /*a sinatxe -- é importante para estabelecer as classes */
+  --lightBlue:#009ffd;
+  --mainWhite:#f3f3f3;
+  --mainDark:#232528;
+  --mainYellow:#ffa400;
+}
+
+body {
+  font-family: "Oswald", sans-serif !important; /*precisamos adicionar a flag important para que a font do bootstrap não sobrescreva a nossa */
+  background: var(--mainWhite) !important;
+  color: var(--mainDark) !important;
+}
+
+.text-title {
+  font-family: 'Permanent Marker', cursive; /*como é a minha classe, eu não preciso adicionar a flag */
+  letter-spacing: 0.3rem;
+  text-transform: uppercase;
+}
+
+.text-blue {
+  color: var(--mainBlue);
+}
+
+.text-bright {
+  color: var(--lightBlue);
+}
