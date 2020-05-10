@@ -19,8 +19,8 @@ export default class ProductList extends Component {
             <div className="row">
                 <ProductConsumer>
                     {/* sempre passar o data na forma de arrow function anonima */}
-                    {hello => {
-                        return <h1>{hello}</h1>
+                    {() => {
+                        return <h1></h1>
                     }}
                 </ProductConsumer>
             </div>
